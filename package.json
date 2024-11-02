@@ -1,0 +1,30 @@
+{
+  "name": "sync-repos",
+  "version": "1.0.0",
+  "description": "Synchronize all Git repositories in a specified directory.",
+  "main": "index.js",
+  "bin": {
+    "sync-repos": "index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/libo-nx/sync-repos.git"
+  },
+  "keywords": [
+    "git",
+    "synchronization",
+    "repositories"
+  ],
+  "author": "libo <libo-nx@qq.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/libo-nx/sync-repos/issues"
+  },
+  "homepage": "https://github.com/libo-nx/sync-repos#readme",
+  "dependencies": {
+    "minimist": "^1.2.8"
+  }
+}
